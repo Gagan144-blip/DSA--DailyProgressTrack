@@ -1,0 +1,70 @@
+# DSA Journey
+
+## Day 1 - Time Complexity & space complexity 
+
+### Topics Learned
+- What is Time Complexity?
+- What is Space Complexity?
+- Why Time Complexity is important?
+- Big O Notation [Worst Case]
+- O(1) 
+- O(log n)
+- O(n)
+- O(n²)
+
+### Key Learnings :
+- Time Complexity measures how runtime grows with input size.
+- We focus on the worst-case scenario using Big O notation.
+- O(log n) algorithms are generally faster than O(n).
+
+### Three Rules while calculating time complexity of any Program:
+- Always Compute complexity in terms of worst case Scenerio
+- Avoid Constants
+- Avoid Lower Values
+
+# Time Complexity
+
+## Common Complexities
+
+| Complexity | Example |
+|------------|----------|
+| O(1) | Array access |
+| O(log n) | Binary Search |
+| O(n) | Linear Search |
+| O(n²) | Nested Loops |
+
+## Important Rules
+
+1. Drop constants
+   O(2n) → O(n)
+
+2. Keep dominant term
+   O(n² + n) → O(n²)
+
+3. Nested loops multiply
+   O(n × n) = O(n²)
+
+### Space Complexity:
+- It is the Memory Space
+-  Space Complexity  = Auxilliary Space + Input Space
+
+- Auxilliary Space : Space that you take to solve the problem
+   E.g. int a, b
+    C = a + b  (here C is the Auxilliary Space)
+
+- Input Space : The space that you take to store the input. 
+    E.g. int a, b  (here a and b are Input Space)
+
+### Resources Used
+- Strivers Time Complexity Youtube video 
+
+### Questions/Doubts
+- Need practice Related to Time Complexity Problems.
+
+### Status
+✅ Completed
+
+### Tip: 
+Any Coding Platform Take 1s (second) for 10^8 Operations 
+so if in any Problem Time Limit = 1s 
+It's Time complexity is Approx 10^8
