@@ -27,7 +27,7 @@ Unordered_map<key-type, value Type) mapName:-
 
 ex-
 - Unordered-map<int, int> mp;
-    Key = int, valive = int
+    Key = int, value = int
 
 - why do we use Hastmops?
 Suppose we have
