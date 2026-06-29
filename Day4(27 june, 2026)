@@ -1,1 +1,110 @@
+Day 4
+
+Topics covered:
+- Frequency Counting
+- Hashmaps
+- Unordered_map
+- unordered_set
+
+Theory:
+- Frequency Counting:
+- The process of Tracking how many times a unique element appears in a collection.
+- Used to solve string manipulation, anagram detection and data analysis problems efficiently.
+- the Optimal way to count frequencies is using Hashmap
+- Which Achieves O(n) Time Complexity.
+
+- Hashmaps:
+- Hashmaps is a data structure that stores data in a key-value pairs, Think of it like a dictionary
+- Example:
+    key       value
+     1          3
+     2          5
+    10          1
+
+- in +++ we use:
+
+Unordered_map<key-type, value Type) mapName:-
+
+ex-
+- Unordered-map<int, int> mp;
+    Key = int, valive = int
+
+- why do we use Hastmops?
+Suppose we have
+nums = [1,2,2,3,3,3)
+we want to Know:
+1 Occus 1 time.
+2 occurs 2 time
+3 occurs 3 time
+
+- without wsing Hashmaps:
+→ we use nested loops
+Have Time complexity: o(n²)
+
+- with a Hash map:
+- One loop is enough
+Have time complexity: o(n) (average Case)
+
+create a Hanmap:-
+unordered-map<int, int>mp;
+initialitaly mp={}
+
+## Map and unordered-map :
+map : 
+→ Sorted keys, o (log n) time complexity
+→ uses
+uses in Red-black Tree
+
+Unordered-mp : 
+unsorted Keys, 0(1) Average
+- uses
+- uses Hashmaps.
+
+## Problems Solved
+
+### 1. LeetCode 217 - Contains Duplicate
+
+Topic: Hashing
+
+Approach:
+- Used an `unordered_map` to count the frequency of each element.
+- If the frequency of any element becomes greater than 1, return `true`.
+- Otherwise, return `false`.
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+Key Learnings:
+- Understood how to use `unordered_map` for frequency counting.
+- Learned the difference between storing array indices and array values as keys.
+- Practiced checking for duplicate elements efficiently.
+
+---
+
+### 2. LeetCode 268 - Missing Number
+
+Topic: Hashing
+
+Approach:
+- Stored the frequency of each number using an `unordered_map`.
+- Traversed numbers from `0` to `n` to find the number with frequency `0`.
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+**Key Learnings:**
+- Learned how hashing can be used to identify missing elements.
+- Improved understanding of frequency-based problems.
+- Explored an alternative approach before learning the optimized solutions.
+
+---
+
+## Day Summary
+
+- Learned the basics of Hashing and Frequency Counting.
+- Practiced using `unordered_map` to solve array problems.
+- Strengthened understanding of key-value pair storage and lookups.
+
 
