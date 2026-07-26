@@ -54,10 +54,10 @@ min(minOdd, freq)
 In this problem, we have to find the first unique character, which means the first character that appears only once in the string.
 
 My Approach:
-First, I used map<char, int> to count the frequency of every character.
-Then, I traversed the original string from left to right.
-For every character, I checked its frequency using mp[s[i]].
-If the frequency is 1, it means the character appears only once, so I returned its index
+-First, I used map<char, int> to count the frequency of every character.
+- Then, I traversed the original string from left to right.
+- For every character, I checked its frequency using mp[s[i]].
+- If the frequency is 1, it means the character appears only once, so I returned its index
 
 Important Learning:
 mp[s[i]]
